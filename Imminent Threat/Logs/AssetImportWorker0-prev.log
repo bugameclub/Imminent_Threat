@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56795
+57086
 Successfully changed project path to: /Users/fadikidess/Desktop/Fadi/Computer Stuff/GM/Unity Editor/New Unity Project/New Project/Imminent Threat/Imminent_Threat/Imminent Threat
 /Users/fadikidess/Desktop/Fadi/Computer Stuff/GM/Unity Editor/New Unity Project/New Project/Imminent Threat/Imminent_Threat/Imminent Threat
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/fadikidess/Desktop/Fadi/Computer St
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 441.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1865.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,50 +69,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56754
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Trying to register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (that doesn't exist). Retrying without overrides.
 Platform support module is not available: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.015399 seconds.
+Registered in 0.024308 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 393.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 939.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.355 seconds
+- Completed reload, in  8.074 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4356ms)
-		BeginReloadAssembly (1071ms)
+	ReloadAssembly (8076ms)
+		BeginReloadAssembly (1589ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (2492ms)
-			LoadAssemblies (1073ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (630ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (228ms)
-			SetupLoadedEditorAssemblies (1432ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (4619ms)
+			LoadAssemblies (1565ms)
+			RebuildTransferFunctionScriptingTraits (8ms)
+			SetupTypeCache (1232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (498ms)
+			SetupLoadedEditorAssemblies (2554ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (46ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (394ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (767ms)
-				ProcessInitializeOnLoadMethodAttributes (243ms)
+				RefreshPlugins (940ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (1290ms)
+				ProcessInitializeOnLoadMethodAttributes (254ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (2ms)
+				EditorAssembliesLoaded (7ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.048839 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/fadikidess/Desktop/Fadi/Computer Stuff/GM/Unity Editor/New Unity Project/New Project/Imminent Threat/Imminent_Threat/Imminent Threat/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/fadikidess/Desktop/Fadi/Computer Stuff/GM/Unity Editor/New Unity Project/New Project/Imminent Threat/Imminent_Threat/Imminent Threat/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Registered in 0.022007 seconds.
